@@ -87,4 +87,12 @@ public class ColourTest {
         boolean testEquals = testColour1.equals(testColour2);
         assertTrue(testEquals);
     }
+
+    @Test
+    public void differentValueColoursReturnsFalse() {
+        Colour testColour1 = new Colour(14429);
+        Colour testColour2 = new Colour(5522444);
+        boolean testEquals = testColour1.equals(testColour2);
+        assertFalse(testEquals);
+    }
 }
