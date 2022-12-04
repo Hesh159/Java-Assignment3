@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Removed Colour constructors (tests should be made first)">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created createColourWithFloatValues test - test will fail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670185420139</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created createColourWithFloatValues test - test will fail">
+      <created>1670185544474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670185544474</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -126,6 +133,7 @@
     <MESSAGE value="Created Colour constructor that takes a single integer parameter" />
     <MESSAGE value="Added JUnit as a dependency to the maven build file" />
     <MESSAGE value="Removed Colour constructors (tests should be made first)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Colour constructors (tests should be made first)" />
+    <MESSAGE value="Created createColourWithFloatValues test - test will fail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created createColourWithFloatValues test - test will fail" />
   </component>
 </project>
