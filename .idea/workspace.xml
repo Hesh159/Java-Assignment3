@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created floatValueAbove1Fails test method">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing floatValueAbove1Fails test method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670189846597</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Created failing floatValueAbove1Fails test method">
+      <created>1670190882175</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670190882175</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -290,6 +296,7 @@
     <MESSAGE value="Created blueValue getter and expanded Colour float constructor to set blue value, now testFloatConstructorBlueValue test passes successfully" />
     <MESSAGE value="Refactored Colour float constructor to use a floatToInt method that converts the float value into an appropriate integer value" />
     <MESSAGE value="Created floatValueAbove1Fails test method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created floatValueAbove1Fails test method" />
+    <MESSAGE value="Created failing floatValueAbove1Fails test method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created failing floatValueAbove1Fails test method" />
   </component>
 </project>

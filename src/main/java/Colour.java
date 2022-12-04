@@ -6,7 +6,7 @@ public class Colour {
     private int greenValue;
     private int blueValue;
 
-    private final int FLOAT_MULTIPLIER = 255;
+    private static final int FLOAT_MULTIPLIER = 255;
 
     public Colour(float r, float g, float b) {
         redValue = floatToInt(r);
@@ -31,7 +31,12 @@ public class Colour {
         return blueValue;
     }
 
-    public int floatToInt(float colour) {
+    private int floatToInt(float colour) {
+        if (colour > 1) {
+            System.out.println("Error: Constructor value must be 1.0 or less");
+            throw new IllegalArgumentException();
+        }
         return (int) Math.floor(colour * FLOAT_MULTIPLIER);
     }
+
 }
