@@ -6,8 +6,10 @@ public class Colour {
     private int greenValue;
     private int blueValue;
 
+    private final int FLOAT_MULTIPLIER = 255;
+
     public Colour(float r, float g, float b) {
-        redValue = (int) Math.floor(r * 255);
+        redValue = (int) Math.floor(r * FLOAT_MULTIPLIER);
     }
 
 
