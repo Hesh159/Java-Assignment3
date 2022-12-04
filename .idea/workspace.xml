@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing floatValueAbove1Fails test method">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Edited floatToInt to throw an IllegalArgumentException if the parameter value is above 1, also made method private">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ColourTest.floatValueAbove1Fails">
+  <component name="RunManager" selected="JUnit.ColourTest.floatValueBelow0Fails">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,6 +57,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
       <option name="METHOD_NAME" value="floatValueAbove1Fails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest.floatValueBelow0Fails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="METHOD_NAME" value="floatValueBelow0Fails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,23 +92,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.testFloatConstructorSetsCorrectGreenValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="testFloatConstructorSetsCorrectGreenValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTest.floatValueAbove1Fails" />
+        <item itemvalue="JUnit.ColourTest.floatValueBelow0Fails" />
         <item itemvalue="JUnit.ColourTest" />
+        <item itemvalue="JUnit.ColourTest.floatValueAbove1Fails" />
         <item itemvalue="JUnit.ColourTest.testFloatConstructorBlueValue" />
         <item itemvalue="JUnit.ColourTest.testFloatConstructorGreenValue" />
-        <item itemvalue="JUnit.ColourTest.testFloatConstructorSetsCorrectGreenValue" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670190882175</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Edited floatToInt to throw an IllegalArgumentException if the parameter value is above 1, also made method private">
+      <created>1670191172598</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670191172598</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -297,6 +304,7 @@
     <MESSAGE value="Refactored Colour float constructor to use a floatToInt method that converts the float value into an appropriate integer value" />
     <MESSAGE value="Created floatValueAbove1Fails test method" />
     <MESSAGE value="Created failing floatValueAbove1Fails test method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created failing floatValueAbove1Fails test method" />
+    <MESSAGE value="Edited floatToInt to throw an IllegalArgumentException if the parameter value is above 1, also made method private" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited floatToInt to throw an IllegalArgumentException if the parameter value is above 1, also made method private" />
   </component>
 </project>

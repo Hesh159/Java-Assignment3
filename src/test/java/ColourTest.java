@@ -41,4 +41,9 @@ public class ColourTest {
     public void floatValueAbove1Fails() {
         assertThrows(IllegalArgumentException.class, () -> new Colour(1.5f, 0.3f, 0.2f));
     }
+
+    @Test
+    public void floatValueBelow0Fails() {
+        assertThrows(IllegalArgumentException.class, () -> new Colour(-0.2f, 0.3f, 0.5f));
+    }
 }
