@@ -17,14 +17,14 @@ public class ColourTest {
     }
 
     @Test
-    public void testFloatConstructorSetsCorrectRedValue() {
+    public void testFloatConstructorRedValue() {
         float expectedRedValue = 76;
         float actualRedValue = testFloatValueColour.getRedValue();
         assertEquals(expectedRedValue, actualRedValue);
     }
 
     @Test
-    public void testFloatConstructorSetsCorrectGreenValue() {
+    public void testFloatConstructorGreenValue() {
         float expectedGreenValue = 51;
         float actualGreenValue = testFloatValueColour.getGreenValue();
         assertEquals(expectedGreenValue, actualGreenValue);
