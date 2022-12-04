@@ -48,6 +48,10 @@ public class Colour {
 
     @Override
     public boolean equals(Object obj) {
+        if (!(obj instanceof Colour)) {
+            return false;
+        }
+
         Colour colour = (Colour) obj;
         if (colour == this) {
             return true;

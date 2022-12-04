@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created differentValueColoursReturnsFalse test method, test works as intended">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing differentObjectsDoNotEqual test method">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ColourTest.differentObjectsDoNotEqual">
+  <component name="RunManager" selected="JUnit.ColourTest">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,10 +93,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.differentObjectsDoNotEqual" />
         <item itemvalue="JUnit.ColourTest.differentValueColoursReturnsFalse" />
         <item itemvalue="JUnit.ColourTest.testSameValueColoursEqual" />
-        <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.integerValueBelow0Fails" />
       </list>
     </recent_temporary>
@@ -363,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670195294729</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Created failing differentObjectsDoNotEqual test method">
+      <created>1670195391479</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1670195391479</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -389,7 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored Colour float constructor method to use a constant to represent 255" />
     <MESSAGE value="Created failing testFloatConstructorSetsCorrectGreenValue test method" />
     <MESSAGE value="Created greenValue getter and expanded colour float constructor to pass testFloatConstructorSetsCorrectGreenValue test method" />
     <MESSAGE value="renamed testFloatConstructorSetsCorrectRedValue to testFloatConstructorRedValue - did same for green" />
@@ -414,6 +419,7 @@
     <MESSAGE value="Created failing testSameValueColoursEqual test method" />
     <MESSAGE value="Overrode the equals method to return true if 2 Colours components are equal" />
     <MESSAGE value="Created differentValueColoursReturnsFalse test method, test works as intended" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created differentValueColoursReturnsFalse test method, test works as intended" />
+    <MESSAGE value="Created failing differentObjectsDoNotEqual test method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created failing differentObjectsDoNotEqual test method" />
   </component>
 </project>
