@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Edited Colour integer constructor to set appropriate blue value - testIntegerConstructorBlueValue test now passes">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing integerValueAboveMaxFails test method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670192992480</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Created failing integerValueAboveMaxFails test method">
+      <created>1670193286552</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670193286552</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -340,7 +347,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created createColourWithFloatValues test - test will fail" />
     <MESSAGE value="Created Colour constructor that takes 3 floats, changed variables for rgb to private" />
     <MESSAGE value="Created createColourWithIntegerValue test method that fails" />
     <MESSAGE value="Created Colour constructor that takes one integer parameter" />
@@ -365,6 +371,7 @@
     <MESSAGE value="Edited Colour integer constructor to set appropriate green value - testIntegerConstructorGreenValue test method now passes" />
     <MESSAGE value="Created failing testIntegerConstructorBlueValue test method" />
     <MESSAGE value="Edited Colour integer constructor to set appropriate blue value - testIntegerConstructorBlueValue test now passes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited Colour integer constructor to set appropriate blue value - testIntegerConstructorBlueValue test now passes" />
+    <MESSAGE value="Created failing integerValueAboveMaxFails test method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created failing integerValueAboveMaxFails test method" />
   </component>
 </project>
