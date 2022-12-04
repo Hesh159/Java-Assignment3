@@ -95,4 +95,10 @@ public class ColourTest {
         boolean testEquals = testColour1.equals(testColour2);
         assertFalse(testEquals);
     }
+
+    @Test
+    public void differentObjectsDoNotEqual() {
+        Colour testColour = new Colour(0.5f, 0.2f, 0.1f);
+        assertFalse(testColour.equals(45));
+    }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Overrode the equals method to return true if 2 Colours components are equal">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created differentValueColoursReturnsFalse test method, test works as intended">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
@@ -42,7 +42,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ColourTest.differentValueColoursReturnsFalse">
+  <component name="RunManager" selected="JUnit.ColourTest.differentObjectsDoNotEqual">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
@@ -52,21 +52,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.differentValueColoursReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColourTest.differentObjectsDoNotEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="differentValueColoursReturnsFalse" />
+      <option name="METHOD_NAME" value="differentObjectsDoNotEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.integerValueAboveMaxFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColourTest.differentValueColoursReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="integerValueAboveMaxFails" />
+      <option name="METHOD_NAME" value="differentValueColoursReturnsFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest.differentObjectsDoNotEqual" />
         <item itemvalue="JUnit.ColourTest.differentValueColoursReturnsFalse" />
         <item itemvalue="JUnit.ColourTest.testSameValueColoursEqual" />
         <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.integerValueBelow0Fails" />
-        <item itemvalue="JUnit.ColourTest.integerValueAboveMaxFails" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670195164770</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Created differentValueColoursReturnsFalse test method, test works as intended">
+      <created>1670195294729</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1670195294729</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -382,7 +389,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created getRedValue getter and expanded the float constructor method - now the testFloatConstructorSetsCorrectRedValue test passes" />
     <MESSAGE value="Refactored Colour float constructor method to use a constant to represent 255" />
     <MESSAGE value="Created failing testFloatConstructorSetsCorrectGreenValue test method" />
     <MESSAGE value="Created greenValue getter and expanded colour float constructor to pass testFloatConstructorSetsCorrectGreenValue test method" />
@@ -407,6 +413,7 @@
     <MESSAGE value="Edited Colour integer constructor to throw an IllegalArgumentException if input is below 0" />
     <MESSAGE value="Created failing testSameValueColoursEqual test method" />
     <MESSAGE value="Overrode the equals method to return true if 2 Colours components are equal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Overrode the equals method to return true if 2 Colours components are equal" />
+    <MESSAGE value="Created differentValueColoursReturnsFalse test method, test works as intended" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created differentValueColoursReturnsFalse test method, test works as intended" />
   </component>
 </project>
