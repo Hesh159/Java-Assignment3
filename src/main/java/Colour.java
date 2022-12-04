@@ -18,6 +18,7 @@ public class Colour {
     public Colour(int rgbValue) {
         redValue = (rgbValue >> 16) & 255;
         greenValue = (rgbValue >> 8) & 255;
+        blueValue = rgbValue & 255;
     }
 
     public int getRedValue() {
