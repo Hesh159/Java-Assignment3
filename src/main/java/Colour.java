@@ -46,4 +46,16 @@ public class Colour {
         return (int) Math.floor(colour * FLOAT_MULTIPLIER);
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        Colour colour = (Colour) obj;
+        if (colour == this) {
+            return true;
+        }
+
+        return (this.getRedValue() == colour.getRedValue() &&
+                this.greenValue == colour.getGreenValue() &&
+                this.blueValue == colour.getBlueValue());
+    }
+
 }

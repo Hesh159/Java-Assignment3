@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Edited Colour integer constructor to throw an IllegalArgumentException if input is below 0">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing testSameValueColoursEqual test method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670193574458</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Created failing testSameValueColoursEqual test method">
+      <created>1670194515066</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670194515066</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -369,7 +375,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="renamed testColour in test methods to more appropriate floatTestColour and intTestColour" />
     <MESSAGE value="Created testFloatConstructorSetsCorrectRedValue test method that fails" />
     <MESSAGE value="Created getRedValue getter and expanded the float constructor method - now the testFloatConstructorSetsCorrectRedValue test passes" />
     <MESSAGE value="Refactored Colour float constructor method to use a constant to represent 255" />
@@ -394,6 +399,7 @@
     <MESSAGE value="Edited Colour integer constructor to throw an IllegalArgumentException if the input is too large (larger than 24 bits)" />
     <MESSAGE value="Created failing integerValueBelow0Fails test method" />
     <MESSAGE value="Edited Colour integer constructor to throw an IllegalArgumentException if input is below 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited Colour integer constructor to throw an IllegalArgumentException if input is below 0" />
+    <MESSAGE value="Created failing testSameValueColoursEqual test method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created failing testSameValueColoursEqual test method" />
   </component>
 </project>
