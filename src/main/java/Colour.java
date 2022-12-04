@@ -9,4 +9,8 @@ public class Colour {
     public Colour(float r, float g, float b) {
 
     }
+
+    public Colour(int rgbValue) {
+
+    }
 }
