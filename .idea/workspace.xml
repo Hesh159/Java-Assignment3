@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="renamed testFloatConstructorSetsCorrectRedValue to testFloatConstructorRedValue - did same for green">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing testFloatConstructorBlueValue test method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +42,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ColourTest.testFloatConstructorBlueValue">
-    <configuration name="ColourTest.floatConstructorSetsCorrectRedValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ColourTest">
+    <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="floatConstructorSetsCorrectRedValue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.testFloatConstructorBlueValue" />
         <item itemvalue="JUnit.ColourTest.testFloatConstructorGreenValue" />
         <item itemvalue="JUnit.ColourTest.testFloatConstructorSetsCorrectGreenValue" />
         <item itemvalue="JUnit.ColourTest.testFloatConstructorSetsCorrectRedValue" />
-        <item itemvalue="JUnit.ColourTest.floatConstructorSetsCorrectRedValue" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670188395969</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Created failing testFloatConstructorBlueValue test method">
+      <created>1670188486977</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670188486977</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -265,6 +271,7 @@
     <MESSAGE value="Created failing testFloatConstructorSetsCorrectGreenValue test method" />
     <MESSAGE value="Created greenValue getter and expanded colour float constructor to pass testFloatConstructorSetsCorrectGreenValue test method" />
     <MESSAGE value="renamed testFloatConstructorSetsCorrectRedValue to testFloatConstructorRedValue - did same for green" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed testFloatConstructorSetsCorrectRedValue to testFloatConstructorRedValue - did same for green" />
+    <MESSAGE value="Created failing testFloatConstructorBlueValue test method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created failing testFloatConstructorBlueValue test method" />
   </component>
 </project>

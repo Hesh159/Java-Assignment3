@@ -11,6 +11,7 @@ public class Colour {
     public Colour(float r, float g, float b) {
         redValue = (int) Math.floor(r * FLOAT_MULTIPLIER);
         greenValue = (int) Math.floor(g * FLOAT_MULTIPLIER);
+        blueValue = (int) Math.floor(b * FLOAT_MULTIPLIER);
     }
 
 
@@ -24,5 +25,9 @@ public class Colour {
 
     public int getGreenValue() {
         return greenValue;
+    }
+
+    public int getBlueValue() {
+        return blueValue;
     }
 }
