@@ -9,9 +9,9 @@ public class Colour {
     private final int FLOAT_MULTIPLIER = 255;
 
     public Colour(float r, float g, float b) {
-        redValue = (int) Math.floor(r * FLOAT_MULTIPLIER);
-        greenValue = (int) Math.floor(g * FLOAT_MULTIPLIER);
-        blueValue = (int) Math.floor(b * FLOAT_MULTIPLIER);
+        redValue = floatToInt(r);
+        greenValue = floatToInt(g);
+        blueValue = floatToInt(b);
     }
 
 
@@ -29,5 +29,9 @@ public class Colour {
 
     public int getBlueValue() {
         return blueValue;
+    }
+
+    public int floatToInt(float colour) {
+        return (int) Math.floor(colour * FLOAT_MULTIPLIER);
     }
 }

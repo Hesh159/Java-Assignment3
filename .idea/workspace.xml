@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing testFloatConstructorBlueValue test method">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created blueValue getter and expanded Colour float constructor to set blue value, now testFloatConstructorBlueValue test passes successfully">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
     </list>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670188486977</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Created blueValue getter and expanded Colour float constructor to set blue value, now testFloatConstructorBlueValue test passes successfully">
+      <created>1670188583602</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670188583602</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -272,6 +279,7 @@
     <MESSAGE value="Created greenValue getter and expanded colour float constructor to pass testFloatConstructorSetsCorrectGreenValue test method" />
     <MESSAGE value="renamed testFloatConstructorSetsCorrectRedValue to testFloatConstructorRedValue - did same for green" />
     <MESSAGE value="Created failing testFloatConstructorBlueValue test method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created failing testFloatConstructorBlueValue test method" />
+    <MESSAGE value="Created blueValue getter and expanded Colour float constructor to set blue value, now testFloatConstructorBlueValue test passes successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created blueValue getter and expanded Colour float constructor to set blue value, now testFloatConstructorBlueValue test passes successfully" />
   </component>
 </project>
