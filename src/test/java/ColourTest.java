@@ -29,4 +29,11 @@ public class ColourTest {
         float actualGreenValue = testFloatValueColour.getGreenValue();
         assertEquals(expectedGreenValue, actualGreenValue);
     }
+
+    @Test
+    public void testFloatConstructorBlueValue() {
+        float expectedBlueValue = 51;
+        float actualBlueValue = testFloatValueColour.getBlueValue();
+        assertEquals(expectedBlueValue, actualBlueValue);
+    }
 }
