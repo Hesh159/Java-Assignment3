@@ -16,8 +16,8 @@ public class Colour {
 
 
     public Colour(int rgbValue) {
-        if (rgbValue > 16777215) {
-            System.out.println("Error: Integer Value must be below 16,777,215");
+        if (rgbValue > 16777215 || rgbValue < 0) {
+            System.out.println("Error: Integer Value must be between 0 and 16,777,215");
             throw new IllegalArgumentException();
         }
         redValue = (rgbValue >> 16) & 255;
