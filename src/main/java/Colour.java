@@ -32,8 +32,8 @@ public class Colour {
     }
 
     private int floatToInt(float colour) {
-        if (colour > 1) {
-            System.out.println("Error: Constructor value must be 1.0 or less");
+        if (0 > colour || colour > 1) {
+            System.out.println("Error: Constructor value must be between 0.0 and 1.0");
             throw new IllegalArgumentException();
         }
         return (int) Math.floor(colour * FLOAT_MULTIPLIER);
