@@ -5,13 +5,13 @@ public class ColourTest {
 
     @Test
     public void createColourWithFloatValues() {
-        Colour testColour = new Colour(0.5f, 0.3f, 0.6f);
-        assert testColour != null;
+        Colour floatTestColour = new Colour(0.5f, 0.3f, 0.6f);
+        assert floatTestColour != null;
     }
 
     @Test
     public void createColourWithIntegerValue() {
-        Colour testColour = new Colour(154456);
-        assert testColour  != null;
+        Colour intTestColour = new Colour(154456);
+        assert intTestColour  != null;
     }
 }
