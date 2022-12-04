@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created Colour constructor that takes 3 floats, changed variables for rgb to private">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created createColourWithIntegerValue test method that fails">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670185642646</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created createColourWithIntegerValue test method that fails">
+      <created>1670185789595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670185789595</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -152,6 +159,7 @@
     <MESSAGE value="Removed Colour constructors (tests should be made first)" />
     <MESSAGE value="Created createColourWithFloatValues test - test will fail" />
     <MESSAGE value="Created Colour constructor that takes 3 floats, changed variables for rgb to private" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Colour constructor that takes 3 floats, changed variables for rgb to private" />
+    <MESSAGE value="Created createColourWithIntegerValue test method that fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created createColourWithIntegerValue test method that fails" />
   </component>
 </project>
