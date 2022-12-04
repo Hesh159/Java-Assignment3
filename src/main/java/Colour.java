@@ -6,11 +6,4 @@ public class Colour {
     public int green;
     public int blue;
 
-    public Colour(float r, float g, float b) {
-
-    }
-
-    public Colour(int colourValue) {
-
-    }
 }
