@@ -36,4 +36,9 @@ public class ColourTest {
         float actualBlueValue = testFloatValueColour.getBlueValue();
         assertEquals(expectedBlueValue, actualBlueValue);
     }
+
+    @Test
+    public void floatValueAbove1Fails() {
+        assertThrows(IllegalArgumentException.class, () -> new Colour(1.5f, 0.3f, 0.2f));
+    }
 }
