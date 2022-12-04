@@ -74,4 +74,9 @@ public class ColourTest {
     public void integerValueAboveMaxFails() {
         assertThrows(IllegalArgumentException.class, () -> new Colour(123453234));
     }
+
+    @Test
+    public void integerValueBelow0Fails() {
+        assertThrows(IllegalArgumentException.class, () -> new Colour(-1));
+    }
 }

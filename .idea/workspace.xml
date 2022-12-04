@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing integerValueAboveMaxFails test method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Edited Colour integer constructor to throw an IllegalArgumentException if the input is too large (larger than 24 bits)">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ColourTest.integerValueAboveMaxFails">
+  <component name="RunManager" selected="JUnit.ColourTest.integerValueBelow0Fails">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,6 +71,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColourTest.integerValueBelow0Fails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="METHOD_NAME" value="integerValueBelow0Fails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColourTest.testIntegerConstructorBlueValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,23 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.testIntegerConstructorGreenValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="testIntegerConstructorGreenValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest.integerValueBelow0Fails" />
         <item itemvalue="JUnit.ColourTest.integerValueAboveMaxFails" />
         <item itemvalue="JUnit.ColourTest.testIntegerConstructorBlueValue" />
         <item itemvalue="JUnit.ColourTest.createColourWithIntegerValue" />
         <item itemvalue="JUnit.ColourTest" />
-        <item itemvalue="JUnit.ColourTest.testIntegerConstructorGreenValue" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670193286552</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Edited Colour integer constructor to throw an IllegalArgumentException if the input is too large (larger than 24 bits)">
+      <created>1670193438524</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670193438524</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -347,7 +353,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Colour constructor that takes 3 floats, changed variables for rgb to private" />
     <MESSAGE value="Created createColourWithIntegerValue test method that fails" />
     <MESSAGE value="Created Colour constructor that takes one integer parameter" />
     <MESSAGE value="renamed testColour in test methods to more appropriate floatTestColour and intTestColour" />
@@ -372,6 +377,7 @@
     <MESSAGE value="Created failing testIntegerConstructorBlueValue test method" />
     <MESSAGE value="Edited Colour integer constructor to set appropriate blue value - testIntegerConstructorBlueValue test now passes" />
     <MESSAGE value="Created failing integerValueAboveMaxFails test method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created failing integerValueAboveMaxFails test method" />
+    <MESSAGE value="Edited Colour integer constructor to throw an IllegalArgumentException if the input is too large (larger than 24 bits)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited Colour integer constructor to throw an IllegalArgumentException if the input is too large (larger than 24 bits)" />
   </component>
 </project>
