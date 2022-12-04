@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ColourTest {
 
@@ -13,5 +13,13 @@ public class ColourTest {
     public void createColourWithIntegerValue() {
         Colour intTestColour = new Colour(154456);
         assert intTestColour  != null;
+    }
+
+    @Test
+    public void testFloatConstructorSetsCorrectRedValue() {
+        Colour redValueTestColour = new Colour(0.3f, 0.2f, 0.2f);
+        float expectedRedValue = 0.3f;
+        float actualRedValue = redValueTestColour.getRedValue();
+        assertEquals(expectedRedValue, actualRedValue);
     }
 }
