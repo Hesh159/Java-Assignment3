@@ -18,7 +18,7 @@ public class ColourTest {
     @Test
     public void testFloatConstructorSetsCorrectRedValue() {
         Colour redValueTestColour = new Colour(0.3f, 0.2f, 0.2f);
-        float expectedRedValue = 0.3f;
+        float expectedRedValue = 76;
         float actualRedValue = redValueTestColour.getRedValue();
         assertEquals(expectedRedValue, actualRedValue);
     }

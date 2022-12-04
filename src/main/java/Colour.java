@@ -7,10 +7,15 @@ public class Colour {
     private int blueValue;
 
     public Colour(float r, float g, float b) {
-
+        redValue = (int) Math.floor(r * 255);
     }
+
 
     public Colour(int rgbValue) {
 
+    }
+
+    public int getRedValue() {
+        return redValue;
     }
 }
