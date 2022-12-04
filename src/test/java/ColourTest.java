@@ -55,4 +55,11 @@ public class ColourTest {
         int actualRedValue = testIntegerValueColour.getRedValue();
         assertEquals(expectedRedValue, actualRedValue);
     }
+
+    @Test
+    public void testIntegerConstructorGreenValue() {
+        int expectedGreenValue = 255;
+        int actualGreenValue = testIntegerValueColour.getGreenValue();
+        assertEquals(expectedGreenValue, actualGreenValue);
+    }
 }
