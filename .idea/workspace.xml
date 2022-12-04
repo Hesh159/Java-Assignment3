@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing testIntegerConstructorBlueValue test method">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Edited Colour integer constructor to set appropriate blue value - testIntegerConstructorBlueValue test now passes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ColourTest.testIntegerConstructorBlueValue">
+  <component name="RunManager" selected="JUnit.ColourTest.integerValueAboveMaxFails">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,6 +57,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
       <option name="METHOD_NAME" value="createColourWithIntegerValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest.integerValueAboveMaxFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="METHOD_NAME" value="integerValueAboveMaxFails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,23 +92,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.testIntegerConstructorRedValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="testIntegerConstructorRedValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest.integerValueAboveMaxFails" />
         <item itemvalue="JUnit.ColourTest.testIntegerConstructorBlueValue" />
         <item itemvalue="JUnit.ColourTest.createColourWithIntegerValue" />
         <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.testIntegerConstructorGreenValue" />
-        <item itemvalue="JUnit.ColourTest.testIntegerConstructorRedValue" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670192848622</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Edited Colour integer constructor to set appropriate blue value - testIntegerConstructorBlueValue test now passes">
+      <created>1670192992480</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670192992480</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -333,7 +340,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed Colour constructors (tests should be made first)" />
     <MESSAGE value="Created createColourWithFloatValues test - test will fail" />
     <MESSAGE value="Created Colour constructor that takes 3 floats, changed variables for rgb to private" />
     <MESSAGE value="Created createColourWithIntegerValue test method that fails" />
@@ -358,6 +364,7 @@
     <MESSAGE value="Created failing testIntegerConstructorGreenValue test method" />
     <MESSAGE value="Edited Colour integer constructor to set appropriate green value - testIntegerConstructorGreenValue test method now passes" />
     <MESSAGE value="Created failing testIntegerConstructorBlueValue test method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created failing testIntegerConstructorBlueValue test method" />
+    <MESSAGE value="Edited Colour integer constructor to set appropriate blue value - testIntegerConstructorBlueValue test now passes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited Colour integer constructor to set appropriate blue value - testIntegerConstructorBlueValue test now passes" />
   </component>
 </project>

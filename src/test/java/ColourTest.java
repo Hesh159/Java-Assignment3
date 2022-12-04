@@ -69,4 +69,9 @@ public class ColourTest {
         int actualBlueValue = testIntegerValueColour.getBlueValue();
         assertEquals(expectedBlueValue, actualBlueValue);
     }
+
+    @Test
+    public void integerValueAboveMaxFails() {
+        assertThrows(IllegalArgumentException.class, () -> new Colour(123453234));
+    }
 }
