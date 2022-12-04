@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Edited floatToInt to also throw IllegalArgumentException when input is below 0">
+    <list default="true" id="2f895f61-819b-4a43-a376-b6a1538cc1ce" name="Changes" comment="Created failing testIntegerConstructorRedValue test method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670191393004</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Created failing testIntegerConstructorRedValue test method">
+      <created>1670192323981</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670192323981</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -321,6 +329,7 @@
     <MESSAGE value="Edited floatToInt to throw an IllegalArgumentException if the parameter value is above 1, also made method private" />
     <MESSAGE value="Created failing test method floatValueBelow0Fails" />
     <MESSAGE value="Edited floatToInt to also throw IllegalArgumentException when input is below 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited floatToInt to also throw IllegalArgumentException when input is below 0" />
+    <MESSAGE value="Created failing testIntegerConstructorRedValue test method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created failing testIntegerConstructorRedValue test method" />
   </component>
 </project>

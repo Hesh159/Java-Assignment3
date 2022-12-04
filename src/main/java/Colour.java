@@ -16,7 +16,7 @@ public class Colour {
 
 
     public Colour(int rgbValue) {
-
+        redValue = (rgbValue >> 16) & 255;
     }
 
     public int getRedValue() {

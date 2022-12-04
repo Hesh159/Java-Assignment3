@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ColourTest {
 
     Colour testFloatValueColour = new Colour(0.3f, 0.2f, 0.2f);
+    //max integer that can fit in 24 bits, all colour values should be 255
     Colour testIntegerValueColour = new Colour(16777215);
     @Test
     public void createColourWithFloatValues() {
