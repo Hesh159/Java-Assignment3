@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ColourTest {
 
     Colour testFloatValueColour = new Colour(0.3f, 0.2f, 0.2f);
+    Colour testIntegerValueColour = new Colour(16777215);
     @Test
     public void createColourWithFloatValues() {
         Colour floatTestColour = new Colour(0.5f, 0.3f, 0.6f);
@@ -18,22 +19,22 @@ public class ColourTest {
 
     @Test
     public void testFloatConstructorRedValue() {
-        float expectedRedValue = 76;
-        float actualRedValue = testFloatValueColour.getRedValue();
+        int expectedRedValue = 76;
+        int actualRedValue = testFloatValueColour.getRedValue();
         assertEquals(expectedRedValue, actualRedValue);
     }
 
     @Test
     public void testFloatConstructorGreenValue() {
-        float expectedGreenValue = 51;
-        float actualGreenValue = testFloatValueColour.getGreenValue();
+        int expectedGreenValue = 51;
+        int actualGreenValue = testFloatValueColour.getGreenValue();
         assertEquals(expectedGreenValue, actualGreenValue);
     }
 
     @Test
     public void testFloatConstructorBlueValue() {
-        float expectedBlueValue = 51;
-        float actualBlueValue = testFloatValueColour.getBlueValue();
+        int expectedBlueValue = 51;
+        int actualBlueValue = testFloatValueColour.getBlueValue();
         assertEquals(expectedBlueValue, actualBlueValue);
     }
 
@@ -45,5 +46,12 @@ public class ColourTest {
     @Test
     public void floatValueBelow0Fails() {
         assertThrows(IllegalArgumentException.class, () -> new Colour(-0.2f, 0.3f, 0.5f));
+    }
+
+    @Test
+    public void testIntegerConstructorRedValue() {
+        int expectedRedValue  = 255;
+        int actualRedValue = testIntegerValueColour.getRedValue();
+        assertEquals(expectedRedValue, actualRedValue);
     }
 }
