@@ -7,6 +7,7 @@ public class Colour {
     private int blueValue;
 
     private static final int FLOAT_MULTIPLIER = 255;
+    private static final int MAX_INTEGER_INPUT = 16777215;
 
     public Colour(float r, float g, float b) {
         redValue = floatToInt(r);
@@ -16,7 +17,7 @@ public class Colour {
 
 
     public Colour(int rgbValue) {
-        if (rgbValue > 16777215 || rgbValue < 0) {
+        if (rgbValue > MAX_INTEGER_INPUT || rgbValue < 0) {
             System.out.println("Error: Integer Value must be between 0 and 16,777,215");
             throw new IllegalArgumentException();
         }

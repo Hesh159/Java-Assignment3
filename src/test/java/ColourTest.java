@@ -79,4 +79,12 @@ public class ColourTest {
     public void integerValueBelow0Fails() {
         assertThrows(IllegalArgumentException.class, () -> new Colour(-1));
     }
+
+    @Test
+    public void testSameValueColoursEqual() {
+        Colour testColour1 = new Colour(12);
+        Colour testColour2 = new Colour(12);
+        boolean testEquals = testColour1.equals(testColour2);
+        assertTrue(testEquals);
+    }
 }
